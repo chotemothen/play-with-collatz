@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/play-with-collatz/static/css/main.97b7441d.chunk.css",
-    "main.js": "/play-with-collatz/static/js/main.0950443c.chunk.js",
-    "main.js.map": "/play-with-collatz/static/js/main.0950443c.chunk.js.map",
+    "main.js": "/play-with-collatz/static/js/main.7915e225.chunk.js",
+    "main.js.map": "/play-with-collatz/static/js/main.7915e225.chunk.js.map",
     "runtime-main.js": "/play-with-collatz/static/js/runtime-main.06151586.js",
     "runtime-main.js.map": "/play-with-collatz/static/js/runtime-main.06151586.js.map",
     "static/js/2.5d3d36a9.chunk.js": "/play-with-collatz/static/js/2.5d3d36a9.chunk.js",
@@ -18,6 +18,6 @@
     "static/js/runtime-main.06151586.js",
     "static/js/2.5d3d36a9.chunk.js",
     "static/css/main.97b7441d.chunk.css",
-    "static/js/main.0950443c.chunk.js"
+    "static/js/main.7915e225.chunk.js"
   ]
 }
