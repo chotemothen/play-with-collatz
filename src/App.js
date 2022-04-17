@@ -25,7 +25,6 @@ function App({isRickRolled, setIsRickRolled}) {
         setLeaderData={setLeaderData}
       /> }
       {tab == 1 && <LeaderBoard leaderData={leaderData}  /> }
-      {/* { tab == 2  && <Lily isRickRolled={isRickRolled} setIsRickRolled={setIsRickRolled} />} */}
 
       </div>
     </div>
