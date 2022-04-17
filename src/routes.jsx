@@ -15,10 +15,10 @@ const Routes = (props) => {
     return (  
     <Router>
         <Switch>
-            <Route path="/rickroll">
+            <Route path="/play-with-collatz/rickroll">
                 <RickRoll isRickRolled={isRickRolled} setIsRickRolled={setIsRickRolled}/>
             </Route>
-            <Route path="/">
+            <Route path="/play-with-collatz/">
                 <App isRickRolled={isRickRolled} setIsRickRolled={setIsRickRolled}/>
             </Route>
         </Switch>
