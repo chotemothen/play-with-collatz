@@ -2,7 +2,7 @@
   "name": "play-with-collatz",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://play-with-collatz.github.io",
+  "homepage": "https://chotemothen.github.io/play-with-collatz/",
   "dependencies": {
     "@material-ui/core": "^4.12.3",
     "@testing-library/jest-dom": "^5.14.1",
