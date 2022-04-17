@@ -13,13 +13,14 @@ import RickRoll from './RickRoll';
 const Routes = (props) => {
     const [isRickRolled, setIsRickRolled] = useState(false);
     return (  
-    <Router>
+    <Router  basename={process.env.PUBLIC_URL + "/"}>
         <Switch>
-            <Route path="/play-with-collatz/rickroll">
+            <Route path="/rickroll">
                 <RickRoll isRickRolled={isRickRolled} setIsRickRolled={setIsRickRolled}/>
             </Route>
-            <Route path="/play-with-collatz">
-                <App isRickRolled={isRickRolled} setIsRickRolled={setIsRickRolled}/>
+
+            <Route exact path="/" component={App}>
+                
             </Route>
         </Switch>
     </Router>    
