@@ -1,0 +1,97 @@
+
+.App-header {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  padding: 10px 0px 0px 10px;
+  font-weight: 700;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  font-size: 1.25rem;
+  height: 63px;
+  color: rgb(34, 51, 84);
+  box-shadow: rgb(159 162 191 / 18%) 0px 2px 3px, rgb(159 162 191 / 32%) 0px 1px 1px;
+}
+
+
+body {
+  background-color: #f6f8fb;
+}
+
+.Tab > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.PlayContainer-Paper {
+  width: 300px;
+  height: 320px;
+  margin-top: 20px;
+}
+
+.PlayContainer-Div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.PlayContainer-Input {
+  margin-bottom: 20px !important;
+}
+.PlayContainer-Subtitle {
+  padding: 20px;
+  text-align: center;
+}
+
+.PlayContainer-Go-Div {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.PlayContainer-Go {
+  margin-right: 38px !important;
+}
+
+.CollatzGraph-Paper {
+  height: 360px;
+  width: 1200px;
+  padding: 20px;
+}
+
+.CollatzGraph-Container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 38px;
+  flex-direction: column;
+}
+
+.CollatzGraph-Info-Container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ }
+
+ .CollatzGraph-Info-Paper {
+  margin: 33px;
+  width: 220px;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+ }
+
+ .CollatzGraph-Info-Paper-Title {
+  font-size: 18px;
+  text-decoration: underline;
+  font-weight: 600;
+  margin-bottom: 30px;
+ }
+
+ .CollatzGraph-Info-Paper-Body {
+  font-size: 30px;
+  font-weight: 600;
+ }
